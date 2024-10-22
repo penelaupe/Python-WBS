@@ -1,6 +1,4 @@
-import { Runtime, Inspector } from "@observablehq/runtime";
-import notebook from "@mbostock/graph";
-new Runtime().module(notebook, Inspector.into(document.body));
+
 
 // Define the updated WPS hierarchy
 const wps_hierarchy_updated = {
